@@ -14,6 +14,7 @@
 		BCA4F7F42BAC4055004AB6E4 /* AirBNBSwiftUICloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4F7F32BAC4055004AB6E4 /* AirBNBSwiftUICloneTests.swift */; };
 		BCA4F7FE2BAC4055004AB6E4 /* AirBNBSwiftUICloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4F7FD2BAC4055004AB6E4 /* AirBNBSwiftUICloneUITests.swift */; };
 		BCA4F8002BAC4055004AB6E4 /* AirBNBSwiftUICloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4F7FF2BAC4055004AB6E4 /* AirBNBSwiftUICloneUITestsLaunchTests.swift */; };
+		BCA4F8192BAC42BB004AB6E4 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4F8182BAC42BB004AB6E4 /* ExploreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BCA4F7F92BAC4055004AB6E4 /* AirBNBSwiftUICloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirBNBSwiftUICloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA4F7FD2BAC4055004AB6E4 /* AirBNBSwiftUICloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBNBSwiftUICloneUITests.swift; sourceTree = "<group>"; };
 		BCA4F7FF2BAC4055004AB6E4 /* AirBNBSwiftUICloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBNBSwiftUICloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCA4F8182BAC42BB004AB6E4 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 		BCA4F8152BAC4117004AB6E4 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				BCA4F8182BAC42BB004AB6E4 /* ExploreView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA4F7E52BAC4053004AB6E4 /* ContentView.swift in Sources */,
+				BCA4F8192BAC42BB004AB6E4 /* ExploreView.swift in Sources */,
 				BCA4F7E32BAC4053004AB6E4 /* AirBNBSwiftUICloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
