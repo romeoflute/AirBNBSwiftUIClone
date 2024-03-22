@@ -75,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC9844F52BAD056D005C3C84 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BCA4F7E62BAC4055004AB6E4 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		BCA4F7D62BAC4053004AB6E4 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +106,8 @@
 		BCA4F7E12BAC4053004AB6E4 /* AirBNBSwiftUIClone */ = {
 			isa = PBXGroup;
 			children = (
+				BC9844F52BAD056D005C3C84 /* Assets */,
 				BCA4F8102BAC4097004AB6E4 /* App */,
-				BCA4F7E62BAC4055004AB6E4 /* Assets.xcassets */,
 				BCA4F7E42BAC4053004AB6E4 /* ContentView.swift */,
 				BCA4F80F2BAC4095004AB6E4 /* Core */,
 				BCA4F80E2BAC4092004AB6E4 /* Extensions */,
