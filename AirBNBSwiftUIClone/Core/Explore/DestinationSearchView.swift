@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DestinationSearchView: View {
     @Binding var show: Bool
+    @State private var destination = ""
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -24,7 +25,35 @@ struct DestinationSearchView: View {
                     .padding(.leading)
             }
             
-            Text("Where to?")
+            VStack(alignment: .leading) {
+                Text("Where to?")
+                    .fontWeight(.semibold)
+                .font(.title2)
+                HStack {
+                    Image(systemName: "magnifyingglass")
+                        .imageScale(.small)
+                    TextField("Search destinations", text: $destination)
+                        .font(.headline)
+                        .foregroundStyle(.gray)
+                }
+                .frame(height: 44)
+                .padding(.horizontal)
+                .overlay {
+                    RoundedRectangle(cornerRadius: 8)
+                        .stroke(lineWidth: 1.0)
+                        .foregroundStyle(Color(.systemGray4))
+                }
+            }
+            .padding()
+            .background(.white)
+            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .padding()
+            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            
+            CollapsedPickerView(title: "When", description: "Add dates")
+            
+            CollapsedPickerView(title: "Who", description: "Add guests")
+            
             Spacer()
         }
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -33,4 +62,27 @@ struct DestinationSearchView: View {
 
 #Preview {
     DestinationSearchView(show: .constant(true))
+}
+
+struct CollapsedPickerView: View {
+    let title: String
+    let description: String
+    
+    var body: some View {
+        VStack {
+            HStack {
+                Text(title)
+                    .foregroundStyle(.gray)
+                Spacer()
+                Text(description)
+            }
+            .fontWeight(.semibold)
+            .font(.subheadline)
+        }
+        .padding()
+        .background(.white)
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .padding()
+        .shadow(radius: 10)
+    }
 }
