@@ -26,6 +26,7 @@
 		BCC6534A2BB1437300B19E56 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC653492BB1437300B19E56 /* LoginButton.swift */; };
 		BCC6534C2BB1449800B19E56 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6534B2BB1449800B19E56 /* MainTabView.swift */; };
 		BCC653502BB14CA800B19E56 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6534F2BB14CA800B19E56 /* Listing.swift */; };
+		BCC653522BB1552E00B19E56 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC653512BB1552E00B19E56 /* DeveloperPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		BCC653492BB1437300B19E56 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		BCC6534B2BB1449800B19E56 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		BCC6534F2BB14CA800B19E56 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		BCC653512BB1552E00B19E56 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		BCA4F80E2BAC4092004AB6E4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BCC653512BB1552E00B19E56 /* DeveloperPreview.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				BCC653432BB130E400B19E56 /* ProfileView.swift in Sources */,
 				BCC653452BB13C0800B19E56 /* ProfileOptionRowView.swift in Sources */,
 				BC9844FE2BADB9F5005C3C84 /* DestinationSearchView.swift in Sources */,
+				BCC653522BB1552E00B19E56 /* DeveloperPreview.swift in Sources */,
 				BCA4F7E52BAC4053004AB6E4 /* ContentView.swift in Sources */,
 				BCA4F83D2BAC6046004AB6E4 /* ListingItemView.swift in Sources */,
 				BCC6534C2BB1449800B19E56 /* MainTabView.swift in Sources */,
