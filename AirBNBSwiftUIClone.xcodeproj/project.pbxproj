@@ -233,8 +233,8 @@
 		BCA4F8142BAC4115004AB6E4 /* Listings */ = {
 			isa = PBXGroup;
 			children = (
-				BCA4F83C2BAC6046004AB6E4 /* ListingItemView.swift */,
-				BC9844F82BAD1642005C3C84 /* ListingDetailView.swift */,
+				BCC6534E2BB14C4D00B19E56 /* Models */,
+				BCC6534D2BB14C4A00B19E56 /* Views */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -270,6 +270,22 @@
 				BCC653472BB13FD500B19E56 /* WishListsView.swift */,
 			);
 			path = WishList;
+			sourceTree = "<group>";
+		};
+		BCC6534D2BB14C4A00B19E56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCA4F83C2BAC6046004AB6E4 /* ListingItemView.swift */,
+				BC9844F82BAD1642005C3C84 /* ListingDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCC6534E2BB14C4D00B19E56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
