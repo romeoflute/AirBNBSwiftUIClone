@@ -27,6 +27,8 @@
 		BCC6534C2BB1449800B19E56 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6534B2BB1449800B19E56 /* MainTabView.swift */; };
 		BCC653502BB14CA800B19E56 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6534F2BB14CA800B19E56 /* Listing.swift */; };
 		BCC653522BB1552E00B19E56 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC653512BB1552E00B19E56 /* DeveloperPreview.swift */; };
+		BCC653572BB1833E00B19E56 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC653562BB1833E00B19E56 /* ExploreViewModel.swift */; };
+		BCC653592BB1854300B19E56 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC653582BB1854300B19E56 /* ExploreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		BCC6534B2BB1449800B19E56 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		BCC6534F2BB14CA800B19E56 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		BCC653512BB1552E00B19E56 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
+		BCC653562BB1833E00B19E56 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		BCC653582BB1854300B19E56 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +251,9 @@
 		BCA4F8152BAC4117004AB6E4 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				BCC653552BB1824A00B19E56 /* ViewModel */,
+				BCC653542BB1824300B19E56 /* View */,
+				BCC653532BB1822F00B19E56 /* Service */,
 				BCA4F8182BAC42BB004AB6E4 /* ExploreView.swift */,
 				BC9844F62BAD0BEF005C3C84 /* SearchAndFilterBar.swift */,
 				BC9844FD2BADB9F5005C3C84 /* DestinationSearchView.swift */,
@@ -292,6 +299,29 @@
 				BCC6534F2BB14CA800B19E56 /* Listing.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BCC653532BB1822F00B19E56 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BCC653582BB1854300B19E56 /* ExploreService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BCC653542BB1824300B19E56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCC653552BB1824A00B19E56 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCC653562BB1833E00B19E56 /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,6 +457,7 @@
 				BC9844FC2BAD16EB005C3C84 /* ListingImageCarouselView.swift in Sources */,
 				BCC6534A2BB1437300B19E56 /* LoginButton.swift in Sources */,
 				BCC653432BB130E400B19E56 /* ProfileView.swift in Sources */,
+				BCC653592BB1854300B19E56 /* ExploreService.swift in Sources */,
 				BCC653452BB13C0800B19E56 /* ProfileOptionRowView.swift in Sources */,
 				BC9844FE2BADB9F5005C3C84 /* DestinationSearchView.swift in Sources */,
 				BCC653522BB1552E00B19E56 /* DeveloperPreview.swift in Sources */,
@@ -439,6 +470,7 @@
 				BC9844F72BAD0BEF005C3C84 /* SearchAndFilterBar.swift in Sources */,
 				BC9844F92BAD1642005C3C84 /* ListingDetailView.swift in Sources */,
 				BCA4F7E32BAC4053004AB6E4 /* AirBNBSwiftUICloneApp.swift in Sources */,
+				BCC653572BB1833E00B19E56 /* ExploreViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
