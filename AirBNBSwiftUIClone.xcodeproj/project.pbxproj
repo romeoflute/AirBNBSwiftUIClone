@@ -254,9 +254,6 @@
 				BCC653552BB1824A00B19E56 /* ViewModel */,
 				BCC653542BB1824300B19E56 /* View */,
 				BCC653532BB1822F00B19E56 /* Service */,
-				BCA4F8182BAC42BB004AB6E4 /* ExploreView.swift */,
-				BC9844F62BAD0BEF005C3C84 /* SearchAndFilterBar.swift */,
-				BC9844FD2BADB9F5005C3C84 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -312,6 +309,9 @@
 		BCC653542BB1824300B19E56 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BCA4F8182BAC42BB004AB6E4 /* ExploreView.swift */,
+				BC9844F62BAD0BEF005C3C84 /* SearchAndFilterBar.swift */,
+				BC9844FD2BADB9F5005C3C84 /* DestinationSearchView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
