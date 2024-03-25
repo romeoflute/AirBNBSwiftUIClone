@@ -70,12 +70,8 @@ struct DestinationSearchView: View {
                     CollapsedPickerView(title: "Where", description: "Add destination")
                 }
             }
-            .padding()
+            .modifier(CollapsibleDestinationViewModifider())
             .frame(height: selectedOption == .location ? 120 : 64)
-            .background(.white)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
-            .padding()
-            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             .onTapGesture {
                 withAnimation(.snappy) { selectedOption = .location }
             }
@@ -97,12 +93,8 @@ struct DestinationSearchView: View {
                     CollapsedPickerView(title: "When", description: "Add dates")
                 }
             }
-            .padding()
+            .modifier(CollapsibleDestinationViewModifider())
             .frame(height: selectedOption == .dates ? 180 : 64)
-            .background(.white)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
-            .padding()
-            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             .onTapGesture {
                 withAnimation(.snappy) { selectedOption = .dates }
             }
@@ -125,12 +117,8 @@ struct DestinationSearchView: View {
                         
                 }
             }
-            .padding()
+            .modifier(CollapsibleDestinationViewModifider())
             .frame(height: selectedOption == .guests ? 120 : 64)
-            .background(.white)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
-            .padding()
-            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             .onTapGesture {
                 withAnimation(.snappy) { selectedOption = .guests }
             }
@@ -143,6 +131,17 @@ struct DestinationSearchView: View {
 
 #Preview {
     DestinationSearchView(show: .constant(true))
+}
+
+struct CollapsibleDestinationViewModifider: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .padding()
+            .background(.white)
+            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .padding()
+            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+    }
 }
 
 struct CollapsedPickerView: View {
