@@ -24,6 +24,7 @@
 		BCC653452BB13C0800B19E56 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC653442BB13C0800B19E56 /* ProfileOptionRowView.swift */; };
 		BCC653482BB13FD500B19E56 /* WishListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC653472BB13FD500B19E56 /* WishListsView.swift */; };
 		BCC6534A2BB1437300B19E56 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC653492BB1437300B19E56 /* LoginButton.swift */; };
+		BCC6534C2BB1449800B19E56 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC6534B2BB1449800B19E56 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		BCC653442BB13C0800B19E56 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
 		BCC653472BB13FD500B19E56 /* WishListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListsView.swift; sourceTree = "<group>"; };
 		BCC653492BB1437300B19E56 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		BCC6534B2BB1449800B19E56 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 		BCA4F8172BAC414B004AB6E4 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				BCC6534B2BB1449800B19E56 /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				BC9844FE2BADB9F5005C3C84 /* DestinationSearchView.swift in Sources */,
 				BCA4F7E52BAC4053004AB6E4 /* ContentView.swift in Sources */,
 				BCA4F83D2BAC6046004AB6E4 /* ListingItemView.swift in Sources */,
+				BCC6534C2BB1449800B19E56 /* MainTabView.swift in Sources */,
 				BCC653482BB13FD500B19E56 /* WishListsView.swift in Sources */,
 				BCA4F8192BAC42BB004AB6E4 /* ExploreView.swift in Sources */,
 				BC9844F72BAD0BEF005C3C84 /* SearchAndFilterBar.swift in Sources */,
